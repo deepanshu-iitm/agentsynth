@@ -25,12 +25,9 @@ ENV/
 # OS / editor
 .DS_Store
 .idea/
-.vscode/
 *.swp
 
 # Secrets / local config
-.env
-.env.*
 *.local
 
 # Gradio / generated artifacts
@@ -56,3 +53,5 @@ test_hub.db
 
 # paper build output (CI compiles the PDF; sources are what we version)
 paper/main.pdf
+config.bat
+node_modules
